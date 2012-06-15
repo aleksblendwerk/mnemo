@@ -1,6 +1,8 @@
 Mnemo
 =====
 
+[![Build Status](https://secure.travis-ci.org/aleksblendwerk/mnemo.png)](http://travis-ci.org/aleksblendwerk/mnemo)
+
 Turns (large) integers into easier to remember Japanese sounding words and vice versa.
 
 This is a port of the Ruby module [rufus-mnemo][rufus-mnemo].
@@ -63,6 +65,7 @@ I mainly started this project as an exercise in current open source and PHP stan
 * Packaging using [Composer][Composer]
 * Distribution via [Packagist][Packagist]
 * Testing with [PHPUnit][PHPUnit]
+* Continuous integration with [Travis][Travis]
 * Inline code documentation according to [phpDocumentor][phpDocumentor]
 * Version control on [GitHub][GitHub]
 
@@ -87,3 +90,4 @@ Mnemo is licensed under the MIT license.
 [phpDocumentor]: http://www.phpdoc.org/
 [PHPUnit]: https://github.com/sebastianbergmann/phpunit/
 [rufus-mnemo]: http://rufus.rubyforge.org/rufus-mnemo/
+[Travis]: http://travis-ci.org/
