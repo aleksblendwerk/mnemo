@@ -15,7 +15,15 @@ There are no further dependencies.
 Installation
 ------------
 
-Clone this repo and use a [PSR-0][PSR-0] compliant autoloader or manually require `Mnemo.php`.
+This library is available as a [Composer][Composer] package. Add the following to your `composer.json` file:
+
+    {
+        "require": {
+            "blendwerk/mnemo": "master"
+        }
+    }
+
+Alternatively clone this repo and use a [PSR-0][PSR-0] compliant autoloader or manually require `Mnemo.php`.
 
 Usage
 -----
@@ -52,6 +60,8 @@ Motivation
 I mainly started this project as an exercise in current open source and PHP standards:
 
 * [PSR-0][PSR-0], [PSR-1][PSR-1] and [PSR-2][PSR-2] coding standards
+* Packaging using [Composer][Composer]
+* Distribution via [Packagist][Packagist]
 * Testing with [PHPUnit][PHPUnit]
 * Inline code documentation according to [phpDocumentor][phpDocumentor]
 * Version control on [GitHub][GitHub]
@@ -68,10 +78,12 @@ License
 
 Mnemo is licensed under the MIT license.
 
+[Composer]: http://getcomposer.org/
 [GitHub]: https://github.com/
 [PSR-0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
 [PSR-1]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md
 [PSR-2]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
+[Packagist]: http://packagist.org/
 [phpDocumentor]: http://www.phpdoc.org/
 [PHPUnit]: https://github.com/sebastianbergmann/phpunit/
 [rufus-mnemo]: http://rufus.rubyforge.org/rufus-mnemo/
